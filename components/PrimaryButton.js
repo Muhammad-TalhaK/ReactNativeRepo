@@ -1,4 +1,5 @@
 import { View,Text, Pressable,StyleSheet } from "react-native";
+import Colors from "../constant/colors";
 
 const PrimaryButton = (props)=>{
     return(
@@ -15,7 +16,7 @@ export default PrimaryButton;
 
 const styles = StyleSheet.create({
     buttonInnerContainer:{
-        backgroundColor:'#720630',
+        backgroundColor:Colors.primaryPlum,
         borderRadius:28,
         padding:8,
     },
@@ -27,6 +28,6 @@ const styles = StyleSheet.create({
         textAlign:'center'
     },
     pressed:{
-        backgroundColor:'#643011',
+        backgroundColor:Colors.primaryPlum500,
     },
 });
